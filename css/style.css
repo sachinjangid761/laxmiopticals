@@ -63,10 +63,10 @@ position: absolute;
 .dis-none{visibility: hidden;}
 .started{border-bottom: solid var(--button-hover-color) !important;color: var(--button-hover-color) !important;}
 .slider-image{
-    background-image: url('../images/picture/banner-digital-eye-1.jpg') !important;
+    background-image: url('../images/picture/banner-digital-eye-1\ -\ Copy\ -\ Copy.jpg') !important;
     width: 100%;
     height: 300px;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
 }
 .searching{text-align: center;margin-top:5%;}
