@@ -3,7 +3,7 @@
     padding: 0;
 } */
 body{
-    background-color: #dddddd82 !important;
+    background-color: white !important;
 }
 .m-left-1{margin-left: 1%;}.m-left-2{margin-left: 2%;}.m-left-3{margin-left: 3%;}.m-left-8{margin-left: 8%;}
 .m-left-15{margin-left: 15%;}.m-left-22{margin-left: 22%;}.m-left-30{margin-left: 30%;}
@@ -212,10 +212,39 @@ position: absolute;
 .timing-and-facilities ul li{
     display: inline-block;
     list-style-type: none;
-    font-size: 40px;
+    font-size: 30px;
+    border-radius: 5px;
 }
 .timing-and-facilities ul li i{
     background-color: var(--button-hover-color);
     color: white;
-    padding: 5%;
+    padding: 20px;
+}
+.timing{
+    font-size: 20px !important;
+}
+.card-servises h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: var(--button-bg-color);
+    text-decoration: underline;
+    padding: 20px;
+}
+.card-servises p{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.servicelist{
+    font-size: 30px;
+    text-align: center;
+}
+.servicelist button{
+    color: white;
+    background-color: var(--button-bg-color);
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
 }
