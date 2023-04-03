@@ -115,7 +115,7 @@ position: absolute;
     font-family: Arial;
     text-align: center;
 }
-.card{
+.card-sadow{
     background-color: white;
     border-radius: 5px;
     margin-top: 10px;
@@ -135,4 +135,87 @@ position: absolute;
 }
 .card-image img{
     width: 100%;
+}
+.ourmission{
+    padding-left: 10%;
+    color: var(--button-bg-color);
+    font-size: 40px;
+    text-decoration: underline;
+}
+.about{
+    padding-left: 10%;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.56);
+}
+.mission{
+    box-shadow: none !important;
+    background-color: #dddddd73 !important;
+    border: none !important;
+}
+.card{margin-top: 10px;}
+.oppointment{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+    background-color: var(--button-hover-color);
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.oppointment h3{
+    font-size: 50px;
+    color: white;
+}
+.oppointment button{
+    padding: 10px;
+    font-size: 30px;
+    color: var(--button-bg-color);
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.oppointment button:hover{
+    background-color: var(--button-bg-color);
+    color: white;
+    border: solid white;
+    transition: 1s;
+}
+.medicenter{
+    text-align: center;
+    font-size: 40px;
+    padding: 5%;
+}
+.medicenter-image-1{
+    height: 200px;
+    width: 250px;
+    margin: 10%;
+    margin-left: 40%;
+}
+.medicenter-image-2{
+    position: absolute;
+    width: 250px;
+    right: 29%;
+}
+.m-top-60{margin-top: 60px;}
+@media screen and (max-width:539px) {
+    .medicenter-image-2{
+        margin-top: -482px;
+        position: relative;
+    }
+    .medicenter-image-1{
+        margin-top: 110px;
+        margin-left: 18%;
+    }
+}
+.timing-and-facilities ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 40px;
+}
+.timing-and-facilities ul li i{
+    background-color: var(--button-hover-color);
+    color: white;
+    padding: 5%;
 }
