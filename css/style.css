@@ -1,0 +1,138 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background-color: #dddddd82 !important;
+}
+.m-left-1{margin-left: 1%;}.m-left-2{margin-left: 2%;}.m-left-3{margin-left: 3%;}.m-left-8{margin-left: 8%;}
+.m-left-15{margin-left: 15%;}.m-left-22{margin-left: 22%;}.m-left-30{margin-left: 30%;}
+.second-menu{
+visibility: hidden;
+position: absolute;
+    
+}
+.bg-color{
+    background-color:white;
+}
+.second-menu ul li{
+    text-decoration: none;
+    /* position: absolute; */
+    list-style-type: none;
+}
+.second-menu ul li:last-child{
+    top: 90px;
+}
+.second-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.shop-menu:hover .second-menu{
+    visibility: visible;
+    transition: 1s;
+}
+.ms-auto li a{
+    font-size: 150%;
+    margin-right: 20px;
+    color: black !important;
+}
+.ms-auto li a:hover{
+    border-bottom: solid var(--button-hover-color);
+    color: var(--button-hover-color) !important;
+}
+.btn-button-contect{
+    margin-right: 100px;
+    padding: 10px;
+    font-size: 148%;
+    color:white;
+    background-color: var(--button-hover-color);
+    border: none;
+    border-radius: 3px;
+
+}
+.btn-button-contect:hover{
+    background-color:  white;
+    border: solid var(--button-hover-color);
+    padding: 7px;
+    color: var(--button-hover-color);
+}
+:root{
+    --button-hover-color:rgba(165, 42, 42, 0.838);
+    --button-bg-color:rgba(163, 57, 57, 0.934);
+}
+.dis-none{visibility: hidden;}
+.started{border-bottom: solid var(--button-hover-color) !important;color: var(--button-hover-color) !important;}
+.slider-image{
+    background-image: url('../images/picture/banner-digital-eye-1.jpg') !important;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.searching{text-align: center;margin-top:5%;}
+.searching a{
+    text-decoration: none;
+    color: var(--button-bg-color);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.searching a:hover{
+    color: var(--button-hover-color);
+    text-decoration: underline;
+}
+.searching input{
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-bottom: solid var(--button-hover-color);
+    background-color: white;
+    padding-left: 30px;
+    /* position: absolute; */
+    color: brown;
+}
+.searching button{
+    padding: 7px;
+    color: white;
+    background-color: var(--button-bg-color);
+    font-size: 118%;
+    border: none;
+    width: 100px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.heading{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.heading-matarial{
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+}
+.card{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card-description{
+    text-align: center;
+    font-size: 23px;
+    /* margin-left: 15%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-second-description{
+    margin: 10%;
+    margin-top: 0;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-image img{
+    width: 100%;
+}
