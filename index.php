@@ -294,6 +294,11 @@
       </div>
     </div>
   </div>
+  <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>
